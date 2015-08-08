@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "prepublish": "npm ls &&  node test/index.js",
-    "test": "node test/index.js"
+    "test": "node test/index.js && node test/immediate.js"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT"
